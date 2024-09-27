@@ -7,6 +7,7 @@ import db from "./src/db/db.js";
 const app = express();
 
 db();
+
 app.use(express.json());
 
 app.use(morgan("dev"));
