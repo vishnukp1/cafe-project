@@ -12,7 +12,7 @@ In the project directory, you can run:
 
 ## Packages
 
-### `Tailwind,aos,reacticons`
+### `Tailwind,axios,reacticons,`
 
 
 ## Responsiveness
