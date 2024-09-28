@@ -1,6 +1,6 @@
 const TermsAndNotices = () => {
   return (
-    <div className="flex flex-col gap-1 md:gap-0 md:flex-row lg:mx-[150px] sm:mx-[50px]  font-kelly-slab xs:mx-[50px]">
+    <div className="flex flex-col gap-[1px] md:gap-0 md:flex-row lg:mx-[150px] sm:mx-[50px]  font-kelly-slab xs:mx-[50px]">
       <div className="flex-grow md:w-1/3 px-4 bg-[#C5A059] h-[87px] pt-2 md:border border-white border-solid">
         <p>
           Food may not be refunded. If your food was made incorrectly we will

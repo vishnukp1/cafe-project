@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <div className="h-full w-full pt-20 bg-black">
       <div className="mb-20">
-        <div className="flex flex-col gap-10 sm:flex-row sm:gap-4 justify-center items-center mx-3">
+        <div className="flex flex-col gap-10 sm:flex-row sm:gap-4 justify-center items-center mr-[1px]">
           <InfoCard
             title="CONNECT WITH US"
             content={connectContent}
