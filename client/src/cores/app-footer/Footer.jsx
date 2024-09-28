@@ -2,14 +2,14 @@ import { LOGO, SOCIAL_MEDIA } from "../../assets";
 import InfoCard from "../../components/InfoCard";
 
 const Footer = () => {
-  const connectContent = (
+  const connectInfo = (
     <>
       <p className="text-sm leading-6">+1470-788-8255</p>
       <p className="text-sm leading-6">email@42harandgrill.com</p>
     </>
   );
 
-  const findUsContent = (
+  const findUsInfo = (
     <>
       <p className="text-xs mt-4">327 Memorial Dr SE, Atlanta,</p>
       <p className="text-xs">GA 30312, USA</p>
@@ -20,19 +20,14 @@ const Footer = () => {
     <div className="h-full w-full pt-20 bg-black">
       <div className="mb-20">
         <div className="flex flex-col gap-10 sm:flex-row sm:gap-4 justify-center items-center mr-[1px]">
-          <InfoCard
-            title="CONNECT WITH US"
-            content={connectContent}
-            zIndex={1}
-          />
+          <InfoCard title="CONNECT WITH US" content={connectInfo} />
           <InfoCard
             title=""
             content={null}
             logo={LOGO}
             socialMedia={SOCIAL_MEDIA}
-            zIndex={2}
           />
-          <InfoCard title="FIND US" content={findUsContent} zIndex={1} />
+          <InfoCard title="FIND US" content={findUsInfo} />
         </div>
       </div>
 

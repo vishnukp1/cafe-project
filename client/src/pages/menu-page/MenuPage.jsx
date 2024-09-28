@@ -98,6 +98,8 @@ function MenuPage() {
               className="absolute top-0 xs:right-[1px] sm:right-[0rem] h-full z-[1] object-cover"
             />
 
+            {/*  showing the cards of drinks,BRUNCH COCKTAILS, HookahFlavor*/}
+
             {activeTab === "All" && (
               <>
                 <MenuCard
@@ -146,6 +148,8 @@ function MenuPage() {
                 ORDER ONLINE
               </button>
             </div>
+
+            {/* the term and notices in bottum of the page*/}
 
             <TermsAndNotices />
           </div>
